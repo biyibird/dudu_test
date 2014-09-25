@@ -1,0 +1,366 @@
+﻿<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>中南大学继续教育学院</title>
+<link href="common.css" rel="stylesheet" type="text/css">
+<link href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css" rel="stylesheet">
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+<script src="http://cdn.bootcss.com/modernizr/2.8.2/modernizr.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="http://cdn.bootcss.com/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+
+
+<script>
+$(function () {
+	//parallaax              
+     jQuery.stellar({horizontalScrolling: false,verticalOffset: 0});
+	 
+
+	$(".btn1").mouseover(function(){
+		$("#wx1").show().addClass("fadeInUp");
+		});
+	$(".btn1").mouseout(function(){
+		$("#wx1").removeClass("fadeInUp").css("display","none");
+		});
+		
+	$(".btn2").mouseover(function(){
+		$("#wx2").show().addClass("fadeInUp");
+		});
+	$(".btn2").mouseout(function(){
+		$("#wx2").removeClass("fadeInUp").css("display","none");
+		});
+
+
+});
+
+
+</script>
+
+<style>
+body{background: url(images/bg.jpg) -0px 90px repeat-x;}
+header{height: 383px;text-align: center;position: relative;}
+.head_bg{position: absolute;bottom: 0; width: 100%; height: 293px;background: url(images/banner.jpg) center top no-repeat;}
+
+#bar1_a{position: absolute;left: 0;top: 0;width: 320px;}
+#bar1_b{position: absolute;left: 343px;height: 241px;top: 0; width: 313px; background: #eee;}
+#bar1_c{position: absolute;right: 0;top: 0;width: 320px;}
+
+.pic_cont{overflow: hidden; }
+
+.ad_item{float: left; margin-right: 12px;position: relative;height: 93px;
+
+}
+.ad_item h3{-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; min-width: 5em;transition: all 0.3s ease-none;
+-webkit-transition: all 0.3s ease-in-out;
+position: absolute;left: 0px;bottom: 0;padding: 5px 9px;font-size: 12px; background:rgba(204,51,0,.8); color: #fff;text-align: center;}
+.ad_item:hover h3{color: yellow; min-width: 190px;  background:rgba(204,51,0,1);background: #1b639a;}
+
+#ad_item5{ margin-right: 0px;}
+
+.tit1{ height: 29px; background: url(images/d1.png) -0px 3px no-repeat; padding: 0px 0px 0 24px;margin-bottom: 10px;}
+.tit1 h2{ float: left; color:#195987; font-size: 18px; line-height: 29px;height: 29px;}
+.tit1 a.more{ float: right; margin-top: 4px;}
+.content1{}
+
+.list1 li {text-align:left; background:url(images/d2.png) no-repeat 0px 8px;padding-left:12px; margin-bottom: 5px;     }
+.list1 li a:hover{ color:#930; text-decoration:none}
+.list1 li a{display:block;width: 276px; height: 22px;line-height:22px;white-space:nowrap; text-overflow:ellipsis;overflow: hidden;}
+
+.list_fl_fr{ }
+.list_fl_fr li { text-align:left;line-height:160%; background:url(images/d2.png) no-repeat 0px 6px;  position:relative; padding:0px 0 6px 10px;   }
+.list_fl_fr li a{ color: #666;width:250px; display:block; text-overflow:ellipsis;overflow:hidden; white-space:nowrap; }
+.list_fl_fr li span{position:absolute; right:0px; top:0px; color:#999}
+
+.tit2{height: 35px; }
+.tit2 h2{color:#195987;float: left;font-size: 18px; line-height: 29px;height: 29px;}
+.tit2 a.more{ float: right; margin-top: 4px;}
+.content2{background: #edf7f9;border: 4px #e3f0f4 solid; height: 180px;}
+
+
+#bar2_a{float: left;width: 430px; }
+#bar2_b{float: right;width: 540px; }
+
+.content3{background: #edf7f9;border: 1px #e3f0f4 solid; height: 150px; padding: 15px;}
+.wrap_pic_slide{ overflow: hidden;}
+
+.wrap_pic_slide .bd{ position: relative;width: 970px; overflow:hidden;}
+.wrap_pic_slide .bd li{float: left; margin-right: 5px;}
+.wrap_pic_slide .bd li h3{ text-align: center;}
+.wrap_pic_slide .bd li img{ width: 200px; height: 150px;}
+
+.tab_slide{padding: 10px;}
+.tab_slide .hd{height: 25px; border-bottom: 1px #b3d4de solid; margin-bottom: 10px;}
+.tab_slide .hd li{float: left; height: 17px; margin-right: 5px; padding: 3px 5px;color: #195987;border: 1px #edf7f9 solid;}
+.tab_slide .hd li.on{border: 1px #b3d4de solid;border-bottom: none;background: url(images/on_bg.png) -0px center repeat-x;}
+
+.tab_slide .bd .con{zoom:1;}
+.tab_slide .bd .con .focus{ margin-right: 15px;float: left;}
+.tab_slide .bd .con .txt{ color: #666; height: 130px;overflow: hidden;line-height: 180%;}
+
+.big_slide{position: relative;}
+.big_slide .bd img{ width: 313px; height: 241px;}
+.big_slide .hd{position: absolute;left: 50%;bottom: 20px; width: 90px;height: 10px;margin-left: -45px;}
+.big_slide .hd li{ background: #961919; width: 8px;height: 8px;float: left; text-indent:-999px; margin: 5px;-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;}
+.big_slide .hd li.on{background-color: #fff;}
+.logo_txt{position: absolute;left: 0px;top: 210px;}
+
+</style>
+
+
+</head>
+
+<body id="index">
+<header>
+	<div class="head_bg" data-stellar-background-ratio="0.5"></div>
+	<div class="w990">
+		<div class="logo"><img src="images/logo.png"></div>
+        <div class="logo_txt"><img src="images/txt.png"></div>
+        <div class="menu">
+        	<a href="#" class="btn1">二维码分享网址</a><a href="#" class="btn2">微信公众平台</a></div>
+            <div class="wx animated " id="wx1"><img src="images/wx.jpg"></div>
+            <div class="wx animated " id="wx2"><img src="images/wx.jpg"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">网站首页</a>
+                
+                </li><li class="cut"></li>
+                <li><a href="about.html">关于学院</a>
+            <ul class="sub">
+          <li><a href="About-74.html">学院简介</a></li>
+          <li><a href="About-75.html">院长寄语</a></li>
+          <li><a href="About-76.html">学院领导</a></li>
+          <li><a href="About-77.html">机构设置</a></li>
+          <li><a href="About-78.html">机构职能</a></li>
+          <li><a href="About-79.html">宣传视频</a></li>
+          <li><a href="AboutPhoto-80.html">校园风采</a></li>
+          <li><a href="About-81.html">学院荣誉</a></li>
+          <li><a href="About-82.html">学院大事记</a></li>
+        </ul>
+                </li><li class="cut"></li>
+                <li><a href="news.html">学院动态</a>
+                <ul class="sub">
+
+              <li><a href="News-45.html" class="active">学院动态</a></li>
+
+              <li><a href="News-46.html">通知公告</a></li>
+
+              <li><a href="News-47.html">活动预告</a></li>
+
+              <li><a href="News-48.html">媒体视角</a></li>
+
+            </ul>
+            </li><li class="cut"></li>
+                <li><a href="education.html">继续教育</a></li><li class="cut"></li>
+                <li><a href="party.html">党建工作</a></li><li class="cut"></li>
+                <li><a href="student.html">学员风采</a></li><li class="cut"></li>
+                <li><a href="teacher.html" style="width: 6em;">名师荟萃</a></li><li class="cut"></li>
+                <li><a href="service.html">服务指南</a></li><li class="cut"></li>
+                <li><a href="contact.html">联系我们</a></li><li class="cut"></li>
+            </ul>
+            <div class="search">
+  	<input type="text" placeholder="搜索"><button></button>
+  </div>
+        </nav>
+	</div>
+</header>
+
+<div class="cl h20"></div>
+
+<div class="w1000 clearfix" style="position: relative; height: 241px;">
+	<div class="bar1" id="bar1_a">
+    	<div class="tit1"><h2>通知公告</h2><a href="#" class="more"><img src="images/more.png"></a></div>
+        <div class="content1">
+        <ul class="list_fl_fr">
+        <li><a href="show.htm">寻求强强合作 打造高端农业</a><span>2007-10-9</span></li>
+        <li><a href="show.htm" >置业公司组织全体员工赴长沙考察楼盘建设</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司开展办公室系统培训</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 召开党的群众路线教育实践活动动员大会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司召开2014年度工作务虚会议</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 稀土公司组织召开2014年中层管理人员竞聘会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 长郡中学与云龙示范区就合作办学事宜</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 长郡中学与云龙示范区就合作办学事宜</a><span>2007-10-9</span></li>
+      </ul>
+        </div>
+    </div>
+    
+    <div id="bar1_b">
+    <!--中间大图-->
+    <div class="big_slide">
+   
+    <div class="bd" >
+        <ul>
+            <li><a href="#"><img src="images/t1.jpg" ></a></li>
+            <li><a href="#"><img src="images/t2.jpg" ></a></li>
+            <li><a href="#"><img src="images/t3.jpg" ></a></li>
+            <li><a href="#"><img src="images/t1.jpg" ></a></li>
+            <li><a href="#"><img src="images/t2.jpg" ></a></li>
+        </ul>
+    </div>
+    <div class="hd">
+   	<ul></ul>
+   </div>
+</div>
+
+<script type="text/javascript">
+	jQuery(".big_slide").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,autoPlay:true,trigger:"click",effect:"fade",interTime:3000});
+</script>
+    <!--end-->
+    </div>
+    
+    <div class="bar1" id="bar1_c">
+    	<div class="tit1"><h2>学院动态</h2><a href="#" class="more"><img src="images/more.png"></a></div>
+        <div class="content1">
+        		<ul class="list_fl_fr">
+        <li><a href="show.htm">寻求强强合作 打造高端农业</a><span>2007-10-9</span></li>
+        <li><a href="show.htm" >置业公司组织全体员工赴长沙考察楼盘建设</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司开展办公室系统培训</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 召开党的群众路线教育实践活动动员大会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司召开2014年度工作务虚会议</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 稀土公司组织召开2014年中层管理人员竞聘会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 长郡中学与云龙示范区就合作办学事宜</a><span>2007-10-9</span></li>
+      </ul>
+        </div>
+    </div>
+    
+</div>
+
+<div class="h20"></div>
+
+<div class="w1000 pic_cont">
+<a href="#" class="ad_item" id="ad_item1"><img src="images/pp1.jpg"><h3>成人教育</h3></a>
+<a href="#" class="ad_item" id="ad_item2"><img src="images/pp2.jpg"><h3>自学考试</h3></a>
+<a href="#" class="ad_item" id="ad_item3"><img src="images/pp3.jpg"><h3>专升本</h3></a>
+<a href="#" class="ad_item" id="ad_item4"><img src="images/pp4.jpg"><h3>同等学力研究生教务管理系统</h3></a>
+<a href="#" class="ad_item" id="ad_item5"><img src="images/pp5.jpg"><h3>特色培训</h3></a>
+
+</div>
+
+<div class="h20"></div>
+<div class="w1000 clearfix">
+	<div id="bar2_a">
+    	<div class="tit2"><h2>培训项目</h2><a href="#" class="more"><img src="images/more.png"></a></div>
+        <div class="content2">
+        	<div class="tab_slide">
+   		<div class="hd">
+   			<ul>
+   				<li>有色金属某某某培训</li>
+   				<li>铁路专业技能培训</li>
+   				<li>医学培训</li>
+   			</ul>
+   		</div>
+        <div class="bd" >
+            <div class="con">
+                <a href="#"><img src="images/pp6.png" class="focus" ></a><div class="txt">近年来，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化的发展。现代采矿科学技术与20世纪90年代相比,已经不可同日而语,它突破了传统学科的范畴,大大拓展了采矿科学技术的发展空间。传统矿业正走向现代化。为了总结近年来采矿工程领域新技术、新工艺创新和应用实践，进一步提升我国采矿科技与装备水平。我会特联合中南大学等单位举办“采矿工程前沿技术与装备高级研修班”。</div>
+                
+            </div>
+            
+            <div class="con">
+                <a href="#"><img src="images/pp7.png" class="focus" ></a><div class="txt">2222，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化。</div>
+                
+            </div>
+            
+            <div class="con">
+                <a href="#"><img src="images/pp8.png" class="focus" ></a><div class="txt">333，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化。</div>
+                
+            </div>
+            
+        </div>
+</div>
+
+
+
+        </div>
+    </div>
+    
+    <div id="bar2_b">
+    	<div class="tit2"><h2>服务指南</h2><a href="#" class="more"><img src="images/more.png"></a></div>
+        <div class="content2">
+        <div class="tab_slide">
+   		<div class="hd">
+   			<ul>
+   				<li>中南大学宣传片</li>
+   				<li>办学介绍</li>
+   				<li>服务热线</li>
+   				<li>办事指南</li>
+   				<li>人才招聘</li>
+                <li>政策法规</li>
+                <li>下载区</li>
+   			</ul>
+   		</div>
+        <div class="bd" >
+            <div class="con">
+                <a href="#"><img src="images/pp7.png" class="focus" ></a><div class="txt">近年来，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化的发展。现代采矿科学技术与20世纪90年代相比,已经不可同日而语,它突破了传统学科的范畴,大大拓展了采矿科学技术的发展空间。传统矿业正走向现代化。为了总结近年来采矿工程领域新技术、新工艺创新和应用实践，进一步提升我国采矿科技与装备水平。我会特联合中南大学等单位举办“采矿工程前沿技术与装备高级研修班”。</div>
+                
+            </div>
+            
+            <div class="con">
+                <a href="#"><img src="images/pp7.png" class="focus" ></a><div class="txt">2222，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化。</div>
+                
+            </div>
+            
+            <div class="con">
+                <a href="#"><img src="images/pp8.png" class="focus" ></a><div class="txt">333，国内外金属矿采矿工艺与装备技术取得了长足发展，技术进步有力地促进了采矿工艺、采掘机械化和自动化。</div>
+                
+            </div>
+            
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+<script>jQuery(".tab_slide").slide({});</script>
+<div class="h20"></div>
+
+<div class="w1000 clearfix">
+	<div class="tit1"><h2>校园风采</h2><a href="#" class="more"><img src="images/more.png"></a></div>
+    <div class="content3">
+    
+    <div class="wrap_pic_slide">
+   
+    <div class="bd" >
+        <ul>
+            <li><a href="#"><img src="images/pp6.png" ></a></li>
+            <li><a href="#"><img src="images/pp7.png" ></a></li>
+            <li><a href="#"><img src="images/pp8.png" ></a></li>
+                        <li><a href="#"><img src="images/pp6.png" ></a></li>
+            <li><a href="#"><img src="images/pp7.png" ></a></li>
+            <li><a href="#"><img src="images/pp8.png" ></a></li>
+                        <li><a href="#"><img src="images/pp6.png" ></a></li>
+            <li><a href="#"><img src="images/pp7.png" ></a></li>
+            <li><a href="#"><img src="images/pp8.png" ></a></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+	jQuery(".wrap_pic_slide").slide({mainCell:".bd ul",autoPlay:true,trigger:"click",effect:"leftLoop",vis:5,interTime:4000});
+</script>
+    
+    </div>
+</div>
+
+<div class="h20"></div>
+
+<div class="w1000 links">
+	<div class="tit"><h2>友情链接</h2></div>
+    <div class="content">
+    <a href="#">中南大学</a>  |  中南大学铁道校区  |  中南大学湘雅医学院  |  中南大学自考网  |  中南大学研究生院  |  创智新程教育基地
+    </div>
+</div>
+<div class="h20"></div>
+
+<footer>
+    <div class="content">
+      <p>© 中南大学继续教育学院 | 中南大学铁道校区创业北楼4楼 0731-82654516        </p>
+      <p>浏览器支持：IE 7.0+、Firefox 3.6+、Chrome、Opera10+        </p>
+      <p>湘ICP备09016243号 </p>
+    </div>
+</footer>
+
+</body>
+</html>
